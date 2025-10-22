@@ -100,9 +100,9 @@ The implementation leverages **Medallion Architecture**, **Unity Catalog** for g
 ![Dashboard Screenshot](./assets/Screenshot%202025-10-22%20220345.png)
 
 ### Key Metrics:
-- **Total Sales:**
-- **Total Profit:**
-- **Total Quantity Sold:** 
+- **Total Sales**
+- **Total Profit**
+- **Total Quantity Sold** 
 
 ### Dashboard Features:
 - 📈 Year-over-Year Sales vs Profit Trend  
