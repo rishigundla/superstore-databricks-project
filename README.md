@@ -99,7 +99,7 @@ The implementation leverages **Medallion Architecture**, **Unity Catalog** for g
 
 ## 📊 BI Dashboard
 
-![Dashboard Screenshot](./assets/dashboard_screenshot.png)
+![Dashboard Screenshot](./assets/Screenshot%202025-10-22%20220345.png)
 
 ### Key Metrics:
 - **Total Sales:**
