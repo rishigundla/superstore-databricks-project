@@ -6,8 +6,6 @@
 This project demonstrates how I built a **complete ETL pipeline** on Databricks — starting from raw data ingestion to delivering interactive business insights through BI dashboards.  
 The implementation leverages **Medallion Architecture**, **Unity Catalog** for governance, **Delta Lake** for reliability and performance, and **Databricks BI Dashboard** for visualization.
 
-📺 **Reference Tutorial:** [Watch the full walkthrough](https://youtu.be/hUTDVTuZO60?si=yoJuF7wgkG3BTLUv)
-
 ---
 
 ## 🪄 Project Highlights
