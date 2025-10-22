@@ -1,4 +1,4 @@
-# 🚀 Databricks ETL Project — Medallion Architecture | Unity Catalog | Delta Lake | BI Dashboard
+# 🚀 Superstore ETL Project — Medallion Architecture | Unity Catalog | Delta Lake | BI Dashboard
 
 > **Beginner-to-Intermediate End-to-End Data Engineering Project**  
 > 🧠 *Azure Databricks | PySpark | SQL | Delta Optimization | BI Dashboard*
@@ -23,7 +23,7 @@ The implementation leverages **Medallion Architecture**, **Unity Catalog** for g
 
 ## 🧭 Architecture Overview
 
-![Medallion Architecture Diagram](./assets/medallion_architecture_diagram.png)
+![Medallion Architecture Diagram](.assets/image.png)
 
 1. **Data Ingestion (Bronze)** — Raw Superstore dataset ingested from ADLS Gen2  
 2. **Data Cleaning (Silver)** — Data validation, deduplication & formatting  
