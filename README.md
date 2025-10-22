@@ -23,7 +23,7 @@ The implementation leverages **Medallion Architecture**, **Unity Catalog** for g
 
 ## 🧭 Architecture Overview
 
-![Medallion Architecture Diagram](.assets/image.png)
+![Medallion Architecture Diagram]([https://github.com/rishigundla/superstore-databricks-project/blob/main/assets/image.png])
 
 1. **Data Ingestion (Bronze)** — Raw Superstore dataset ingested from ADLS Gen2  
 2. **Data Cleaning (Silver)** — Data validation, deduplication & formatting  
