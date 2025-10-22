@@ -18,7 +18,6 @@ The implementation leverages **Medallion Architecture**, **Unity Catalog** for g
 - 🧰 Used both traditional and modern **Delta optimization techniques**  
 - 🧾 Applied **Table Utility Commands** to manage tables effectively  
 - 📊 Designed a **Databricks BI Dashboard** to visualize KPIs and trends  
-- 🔐 Implemented **Row-Level & Column-Level Security** for controlled data access
 
 ---
 
@@ -53,8 +52,7 @@ The implementation leverages **Medallion Architecture**, **Unity Catalog** for g
 - ✅ Create Credential  
 - ✅ Create External Locations  
 - ✅ Create Catalog & Schema  
-- ✅ Create Delta Tables  
-- 🔐 Implement RLS/CLS for access control
+- ✅ Create Delta Tables
 
 ---
 
@@ -75,7 +73,6 @@ The implementation leverages **Medallion Architecture**, **Unity Catalog** for g
 - `DESCRIBE TABLE` / `DESCRIBE DETAIL` / `DESCRIBE HISTORY`  
 - `OPTIMIZE` / `ZORDER BY`  
 - `ALTER TABLE ... SET TBLPROPERTIES`  
-- `ALTER TABLE ... SET TAGS`  
 - `SHOW TBLPROPERTIES`  
 - `RESTORE TABLE TO VERSION AS OF`  
 - `DROP TABLE`, `VACUUM`, `CHECKPOINTS`
@@ -105,9 +102,9 @@ The implementation leverages **Medallion Architecture**, **Unity Catalog** for g
 ![Dashboard Screenshot](./assets/dashboard_screenshot.png)
 
 ### Key Metrics:
-- **Total Sales:** $1.81M  
-- **Total Profit:** $437.37K  
-- **Total Quantity Sold:** 29.96K  
+- **Total Sales:**
+- **Total Profit:**
+- **Total Quantity Sold:** 
 
 ### Dashboard Features:
 - 📈 Year-over-Year Sales vs Profit Trend  
@@ -149,23 +146,8 @@ All notebooks are included in the [`notebooks/`](./notebooks) directory for refe
 
 ---
 
-## 🚀 Future Enhancements
-
-- ⚡ Automate the pipeline using Databricks Workflows  
-- 📡 Incremental & streaming ingestion  
-- 📊 Integrate with Tableau / Power BI for richer visualizations  
-- 🧪 Add data quality checks & monitoring  
-- 🛡️ Implement CI/CD with Unity Catalog & GitHub Actions
-
----
-
 ## 👨‍💻 Author
 
 **Rishikesh Gundla**  
 📊 Senior BI Engineer | 📍 India  
 🔗 [LinkedIn](https://www.linkedin.com/in/rishikeshgundla/)
-
----
-
-⭐ *If you found this project useful, give it a star to support!*  
-📝 *This is part of my data engineering portfolio demonstrating real-world Databricks ETL implementation.*
