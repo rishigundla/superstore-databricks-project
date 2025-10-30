@@ -1,6 +1,6 @@
 # 🚀 Superstore ETL Project — Medallion Architecture | Unity Catalog | Delta Lake | BI Dashboard
 
-> **Beginner-to-Intermediate End-to-End Data Engineering Project**  
+> **Beginner End-to-End Data Engineering Project**  
 > 🧠 *Azure Databricks | PySpark | SQL | Delta Optimization | BI Dashboard*
 
 This project demonstrates how I built a **complete ETL pipeline** on Databricks — starting from raw data ingestion to delivering interactive business insights through BI dashboards.  
