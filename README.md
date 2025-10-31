@@ -120,7 +120,6 @@ Contains the raw dataset used for ingestion into the Bronze layer.
 | File Name | Description |
 |------------|-------------|
 | `superstore.csv` | Retail transactional dataset containing order details, customer demographics, product categories, sales, profit, and region-wise performance. |
-| `.gitkeep` | Placeholder file to maintain folder structure on GitHub. |
 
 🧩 The dataset is used as the foundational source for the ETL pipeline:  
 - Loaded into the **Bronze Layer** for raw ingestion.  
