@@ -1,4 +1,4 @@
-# 🚀 Superstore ETL Project — Medallion Architecture | Unity Catalog | Delta Lake | BI Dashboard
+# Superstore ETL Project — Medallion Architecture | Unity Catalog | Delta Lake | BI Dashboard
 
 > **Beginner End-to-End Data Engineering Project**  
 > 🧠 *Azure Databricks | PySpark | SQL | Delta Optimization | BI Dashboard*
@@ -32,15 +32,15 @@ The implementation leverages **Medallion Architecture**, **Unity Catalog** for g
 
 ## 🧰 Tech Stack
 
-| Category                  | Tools / Tech Used                                |
-|---------------------------|--------------------------------------------------|
-| Data Platform             | Azure Databricks                                 |
-| Storage                   | ADLS Gen2, Delta Tables                           |
-| Governance                | Unity Catalog                                    |
-| Language                  | PySpark, SQL                                     |
-| Architecture              | Medallion (Bronze, Silver, Gold)                  |
-| Optimization              | Delta Optimization Techniques                     |
-| Visualization             | Databricks BI Dashboard                           |
+| Category | Tools / Tech Used |
+|-----------|------------------|
+| Data Platform | Azure Databricks |
+| Storage | ADLS Gen2, Delta Tables |
+| Governance | Unity Catalog |
+| Language | PySpark, SQL |
+| Architecture | Medallion (Bronze, Silver, Gold) |
+| Optimization | Delta Optimization Techniques |
+| Visualization | Databricks BI Dashboard |
 
 ---
 
@@ -50,7 +50,7 @@ The implementation leverages **Medallion Architecture**, **Unity Catalog** for g
 - ✅ Create Credential  
 - ✅ Create External Locations  
 - ✅ Create Catalog & Schema  
-- ✅ Create Delta Tables
+- ✅ Create Delta Tables  
 
 ---
 
@@ -62,7 +62,7 @@ The implementation leverages **Medallion Architecture**, **Unity Catalog** for g
 - Version History & Time Travel  
 - Deep vs Shallow Clone  
 - Table Utility Commands  
-- Checkpoints & Optimization Techniques
+- Checkpoints & Optimization Techniques  
 
 ---
 
@@ -85,13 +85,13 @@ The implementation leverages **Medallion Architecture**, **Unity Catalog** for g
 - Auto Optimize & Auto Compact  
 - Caching  
 - Data Skipping  
-- Partitioning
+- Partitioning  
 
 ### Modern
 - Liquid Clustering  
 - Deletion Vectors  
 - Change Data Feed (CDC)  
-- Schema Evolution
+- Schema Evolution  
 
 ---
 
@@ -100,15 +100,32 @@ The implementation leverages **Medallion Architecture**, **Unity Catalog** for g
 ![Dashboard Screenshot](./assets/Screenshot%202025-10-22%20220345.png)
 
 ### Key Metrics:
-- **Total Sales**
-- **Total Profit**
-- **Total Quantity Sold** 
+- **Total Sales**  
+- **Total Profit**  
+- **Total Quantity Sold**
 
 ### Dashboard Features:
 - 📈 Year-over-Year Sales vs Profit Trend  
 - 🛍️ Category-wise distribution  
 - 🌍 Region-level filter  
-- 🔄 Real-time insights inside Databricks
+- 🔄 Real-time insights inside Databricks  
+
+---
+
+## 💾 Data Folder
+
+📁 **`/data`**  
+Contains the raw dataset used for ingestion into the Bronze layer.  
+
+| File Name | Description |
+|------------|-------------|
+| `superstore.csv` | Retail transactional dataset containing order details, customer demographics, product categories, sales, profit, and region-wise performance. |
+| `.gitkeep` | Placeholder file to maintain folder structure on GitHub. |
+
+🧩 The dataset is used as the foundational source for the ETL pipeline:  
+- Loaded into the **Bronze Layer** for raw ingestion.  
+- Processed in **Silver Layer** for data quality and standardization.  
+- Aggregated in the **Gold Layer** to enable interactive BI reporting.  
 
 ---
 
@@ -129,7 +146,7 @@ All notebooks are included in the [`notebooks/`](./notebooks) directory for refe
 
 - ✅ Row-Level Security (RLS)  
 - ✅ Column-Level Security (CLS)  
-- 🪄 Data Lineage through Unity Catalog
+- 🪄 Data Lineage through Unity Catalog  
 
 ---
 
@@ -140,7 +157,7 @@ All notebooks are included in the [`notebooks/`](./notebooks) directory for refe
 - Deep dive into **Delta Lake features**: versioning, cloning, optimization  
 - Building ETL pipelines using **PySpark + SQL**  
 - Dashboarding inside Databricks for fast insights  
-- Applying **data governance** best practices in analytics
+- Applying **data governance** best practices in analytics  
 
 ---
 
